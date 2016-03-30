@@ -8,7 +8,8 @@ public class JurnalSendy {
         System.out.print("Masukan angka : ");
         int angka = new Scanner(System.in).nextInt();
         System.out.println("\n\nAngka fibbonaci hanya sampai " + angka +" numbers : ");
-        for(int i=1; i<=angka; i++){
+        for(int i=angka; i>=1; i++){
+            System.out.print(pibo(i) +" ");
             System.out.print(pibo(i) +" ");
         }
     }
